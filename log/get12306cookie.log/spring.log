@@ -82,3 +82,613 @@
 2021-01-12 00:36:33.422  INFO 5548 --- [http-nio-8008-exec-9] c.w.g.Controller.mainController          : 【tk】dKqqGvCgf4yMiSUxE3jh1_7MA48bS1yk73L1L0
 2021-01-12 00:36:33.422  INFO 5548 --- [http-nio-8008-exec-9] c.w.g.Controller.mainController          : 【RAIL_EXPIRATION】1610437890585
 2021-01-12 00:36:33.422  INFO 5548 --- [http-nio-8008-exec-9] c.w.g.Controller.mainController          : 【RAIL_DEVICEID】WqYpoZ06tGPYW8yXwricrBBxanfPSIZss0eJdPPOqykfExmVuWE5BSUkd8yE6JSoUdIUrvIQQZOfatcIuuVVf3MDuPbZxf4Tb1tO30UWulOMEyqzmQ9VumuY3o5GJ6U61UbYOhj0emsCGSW7NsamYex-RlR2gSQ3
+2021-01-12 20:17:18.780  INFO 10612 --- [main] c.w.g.Get12306cookieApplication          : Starting Get12306cookieApplication using Java 1.8.0_102 on LAPTOP-VTN86PRD with PID 10612 (E:\get12306cookie\target\classes started by wonder in E:\get12306cookie)
+2021-01-12 20:17:18.783  INFO 10612 --- [main] c.w.g.Get12306cookieApplication          : No active profile set, falling back to default profiles: default
+2021-01-12 20:17:19.657  INFO 10612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8008 (http)
+2021-01-12 20:17:19.664  INFO 10612 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 20:17:19.664  INFO 10612 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 20:17:19.665  INFO 10612 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-01-12 20:17:19.665  INFO 10612 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-01-12 20:17:19.665  INFO 10612 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-01-12 20:17:19.675  INFO 10612 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-01-12 20:17:19.724  INFO 10612 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 20:17:19.724  INFO 10612 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 891 ms
+2021-01-12 20:17:19.856  INFO 10612 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 20:17:19.990  INFO 10612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8008 (http) with context path ''
+2021-01-12 20:17:19.998  INFO 10612 --- [main] c.w.g.Get12306cookieApplication          : Started Get12306cookieApplication in 1.552 seconds (JVM running for 2.516)
+2021-01-12 20:17:37.862  INFO 10612 --- [http-nio-8008-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1604855295,1605352598; i18n_redirected=en; _ga=GA1.1.1997423174.1610263233] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2021-01-12 20:17:37.868  INFO 10612 --- [http-nio-8008-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-12 20:17:37.868  INFO 10612 --- [http-nio-8008-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-12 20:17:37.872  INFO 10612 --- [http-nio-8008-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-01-12 20:19:34.606  INFO 6896 --- [main] c.w.g.Get12306cookieApplication          : Starting Get12306cookieApplication using Java 1.8.0_102 on LAPTOP-VTN86PRD with PID 6896 (E:\get12306cookie\target\classes started by wonder in E:\get12306cookie)
+2021-01-12 20:19:34.609  INFO 6896 --- [main] c.w.g.Get12306cookieApplication          : No active profile set, falling back to default profiles: default
+2021-01-12 20:19:35.287  INFO 6896 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8008 (http)
+2021-01-12 20:19:35.292  INFO 6896 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 20:19:35.292  INFO 6896 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 20:19:35.293  INFO 6896 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-01-12 20:19:35.294  INFO 6896 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-01-12 20:19:35.294  INFO 6896 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-01-12 20:19:35.296  INFO 6896 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-01-12 20:19:35.343  INFO 6896 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 20:19:35.344  INFO 6896 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 693 ms
+2021-01-12 20:19:35.512  INFO 6896 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 20:19:35.686  INFO 6896 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8008 (http) with context path ''
+2021-01-12 20:19:35.692  INFO 6896 --- [main] c.w.g.Get12306cookieApplication          : Started Get12306cookieApplication in 1.341 seconds (JVM running for 1.955)
+2021-01-12 20:19:38.869  INFO 6896 --- [http-nio-8008-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1604855295,1605352598; i18n_redirected=en; _ga=GA1.1.1997423174.1610263233] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2021-01-12 20:19:38.876  INFO 6896 --- [http-nio-8008-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-12 20:19:38.877  INFO 6896 --- [http-nio-8008-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-12 20:19:38.877  INFO 6896 --- [http-nio-8008-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-01-12 20:20:15.331  INFO 18660 --- [main] c.w.g.Get12306cookieApplication          : Starting Get12306cookieApplication using Java 1.8.0_102 on LAPTOP-VTN86PRD with PID 18660 (E:\get12306cookie\target\classes started by wonder in E:\get12306cookie)
+2021-01-12 20:20:15.334  INFO 18660 --- [main] c.w.g.Get12306cookieApplication          : No active profile set, falling back to default profiles: default
+2021-01-12 20:20:15.973  INFO 18660 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8008 (http)
+2021-01-12 20:20:15.978  INFO 18660 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 20:20:15.978  INFO 18660 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 20:20:15.979  INFO 18660 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-01-12 20:20:15.980  INFO 18660 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-01-12 20:20:15.980  INFO 18660 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-01-12 20:20:15.983  INFO 18660 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-01-12 20:20:16.030  INFO 18660 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 20:20:16.030  INFO 18660 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 656 ms
+2021-01-12 20:20:16.144  INFO 18660 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 20:20:16.298  INFO 18660 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8008 (http) with context path ''
+2021-01-12 20:20:16.311  INFO 18660 --- [main] c.w.g.Get12306cookieApplication          : Started Get12306cookieApplication in 1.248 seconds (JVM running for 1.906)
+2021-01-12 20:20:20.281  INFO 18660 --- [http-nio-8008-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1604855295,1605352598; i18n_redirected=en; _ga=GA1.1.1997423174.1610263233] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2021-01-12 20:20:20.286  INFO 18660 --- [http-nio-8008-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-12 20:20:20.286  INFO 18660 --- [http-nio-8008-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-12 20:20:20.287  INFO 18660 --- [http-nio-8008-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-01-12 20:21:45.720  INFO 15628 --- [main] c.w.g.Get12306cookieApplication          : Starting Get12306cookieApplication using Java 1.8.0_102 on LAPTOP-VTN86PRD with PID 15628 (E:\get12306cookie\target\classes started by wonder in E:\get12306cookie)
+2021-01-12 20:21:45.722  INFO 15628 --- [main] c.w.g.Get12306cookieApplication          : No active profile set, falling back to default profiles: default
+2021-01-12 20:21:46.393  INFO 15628 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8008 (http)
+2021-01-12 20:21:46.398  INFO 15628 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 20:21:46.399  INFO 15628 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 20:21:46.400  INFO 15628 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-01-12 20:21:46.400  INFO 15628 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-01-12 20:21:46.400  INFO 15628 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-01-12 20:21:46.403  INFO 15628 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-01-12 20:21:46.447  INFO 15628 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 20:21:46.448  INFO 15628 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 677 ms
+2021-01-12 20:21:46.582  INFO 15628 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 20:21:46.734  INFO 15628 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8008 (http) with context path ''
+2021-01-12 20:21:46.744  INFO 15628 --- [main] c.w.g.Get12306cookieApplication          : Started Get12306cookieApplication in 1.315 seconds (JVM running for 2.004)
+2021-01-12 20:21:49.464  INFO 15628 --- [http-nio-8008-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1604855295,1605352598; i18n_redirected=en; _ga=GA1.1.1997423174.1610263233] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2021-01-12 20:21:49.475  INFO 15628 --- [http-nio-8008-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-12 20:21:49.475  INFO 15628 --- [http-nio-8008-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-12 20:21:49.476  INFO 15628 --- [http-nio-8008-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-01-12 20:29:09.176  INFO 7544 --- [main] c.w.g.Get12306cookieApplication          : Starting Get12306cookieApplication using Java 1.8.0_102 on LAPTOP-VTN86PRD with PID 7544 (E:\get12306cookie\target\classes started by wonder in E:\get12306cookie)
+2021-01-12 20:29:09.179  INFO 7544 --- [main] c.w.g.Get12306cookieApplication          : No active profile set, falling back to default profiles: default
+2021-01-12 20:29:09.826  INFO 7544 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8008 (http)
+2021-01-12 20:29:09.833  INFO 7544 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 20:29:09.834  INFO 7544 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 20:29:09.835  INFO 7544 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-01-12 20:29:09.835  INFO 7544 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-01-12 20:29:09.835  INFO 7544 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-01-12 20:29:09.838  INFO 7544 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-01-12 20:29:09.882  INFO 7544 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 20:29:09.882  INFO 7544 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 646 ms
+2021-01-12 20:29:09.990  INFO 7544 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 20:29:10.105  INFO 7544 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8008 (http) with context path ''
+2021-01-12 20:29:10.112  INFO 7544 --- [main] c.w.g.Get12306cookieApplication          : Started Get12306cookieApplication in 1.227 seconds (JVM running for 1.976)
+2021-01-12 20:29:50.111  INFO 7544 --- [http-nio-8008-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-12 20:29:50.111  INFO 7544 --- [http-nio-8008-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-12 20:29:50.112  INFO 7544 --- [http-nio-8008-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-01-12 20:30:35.531  INFO 7544 --- [http-nio-8008-exec-4] c.w.g.Controller.mainController          : 【接收cookie值：】
+2021-01-12 20:30:35.531  INFO 7544 --- [http-nio-8008-exec-4] c.w.g.Controller.mainController          : 【tk】LNxg6khJVc8gHow2bfsL_WeRKENx21g864L1L0
+2021-01-12 20:30:35.531  INFO 7544 --- [http-nio-8008-exec-4] c.w.g.Controller.mainController          : 【RAIL_EXPIRATION】1610737654110
+2021-01-12 20:30:35.531  INFO 7544 --- [http-nio-8008-exec-4] c.w.g.Controller.mainController          : 【RAIL_DEVICEID】gFWSHfZwrDLBwHkqBXUhs7f20F-VghXINSEtAR4L50Ih5RxeRz03QtzdbffjkJ5BKcYg97pgF2zt-7xpyp2iFiz8U-qc74x308vNGNsjfpyb9Itc6X8oAvFuntU-G6KruYgtZtB64QZVXQfVjT9qrpQlBmpouGQu
+2021-01-12 20:30:35.540 ERROR 7544 --- [http-nio-8008-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.nio.file.InvalidPathException: Illegal char <"> at index 0: "F:\TickerConfig.py"] with root cause
+
+java.nio.file.InvalidPathException: Illegal char <"> at index 0: "F:\TickerConfig.py"
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182) ~[na:1.8.0_102]
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153) ~[na:1.8.0_102]
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77) ~[na:1.8.0_102]
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:94) ~[na:1.8.0_102]
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:255) ~[na:1.8.0_102]
+	at java.nio.file.Paths.get(Paths.java:84) ~[na:1.8.0_102]
+	at com.wonder.get12306cookie.Util.fileIO.readAndWriteFile(fileIO.java:25) ~[classes/:na]
+	at com.wonder.get12306cookie.Controller.mainController.getCookie(mainController.java:41) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_102]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_102]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_102]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_102]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) ~[tomcat-embed-core-9.0.41.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.41.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_102]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_102]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_102]
+
+2021-01-12 20:31:12.195  INFO 8592 --- [main] c.w.g.Get12306cookieApplication          : Starting Get12306cookieApplication using Java 1.8.0_102 on LAPTOP-VTN86PRD with PID 8592 (E:\get12306cookie\target\classes started by wonder in E:\get12306cookie)
+2021-01-12 20:31:12.197  INFO 8592 --- [main] c.w.g.Get12306cookieApplication          : No active profile set, falling back to default profiles: default
+2021-01-12 20:31:12.848  INFO 8592 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8008 (http)
+2021-01-12 20:31:12.855  INFO 8592 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 20:31:12.856  INFO 8592 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 20:31:12.857  INFO 8592 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-01-12 20:31:12.858  INFO 8592 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-01-12 20:31:12.858  INFO 8592 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-01-12 20:31:12.862  INFO 8592 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-01-12 20:31:12.918  INFO 8592 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 20:31:12.919  INFO 8592 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 687 ms
+2021-01-12 20:31:13.067  INFO 8592 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 20:31:13.247  INFO 8592 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8008 (http) with context path ''
+2021-01-12 20:31:13.256  INFO 8592 --- [main] c.w.g.Get12306cookieApplication          : Started Get12306cookieApplication in 1.338 seconds (JVM running for 1.93)
+2021-01-12 20:31:17.815  INFO 8592 --- [http-nio-8008-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-12 20:31:17.816  INFO 8592 --- [http-nio-8008-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-12 20:31:17.817  INFO 8592 --- [http-nio-8008-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-01-12 20:31:17.999  INFO 8592 --- [http-nio-8008-exec-2] c.w.g.Controller.mainController          : 【接收cookie值：】
+2021-01-12 20:31:17.999  INFO 8592 --- [http-nio-8008-exec-2] c.w.g.Controller.mainController          : 【tk】LNxg6khJVc8gHow2bfsL_WeRKENx21g864L1L0
+2021-01-12 20:31:17.999  INFO 8592 --- [http-nio-8008-exec-2] c.w.g.Controller.mainController          : 【RAIL_EXPIRATION】1610737654110
+2021-01-12 20:31:17.999  INFO 8592 --- [http-nio-8008-exec-2] c.w.g.Controller.mainController          : 【RAIL_DEVICEID】gFWSHfZwrDLBwHkqBXUhs7f20F-VghXINSEtAR4L50Ih5RxeRz03QtzdbffjkJ5BKcYg97pgF2zt-7xpyp2iFiz8U-qc74x308vNGNsjfpyb9Itc6X8oAvFuntU-G6KruYgtZtB64QZVXQfVjT9qrpQlBmpouGQu
+2021-01-12 20:31:18.006 ERROR 8592 --- [http-nio-8008-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.nio.file.InvalidPathException: Illegal char <"> at index 0: "F:/TickerConfig.py"] with root cause
+
+java.nio.file.InvalidPathException: Illegal char <"> at index 0: "F:/TickerConfig.py"
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182) ~[na:1.8.0_102]
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153) ~[na:1.8.0_102]
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77) ~[na:1.8.0_102]
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:94) ~[na:1.8.0_102]
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:255) ~[na:1.8.0_102]
+	at java.nio.file.Paths.get(Paths.java:84) ~[na:1.8.0_102]
+	at com.wonder.get12306cookie.Util.fileIO.readAndWriteFile(fileIO.java:25) ~[classes/:na]
+	at com.wonder.get12306cookie.Controller.mainController.getCookie(mainController.java:41) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_102]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_102]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_102]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_102]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) ~[tomcat-embed-core-9.0.41.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.41.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_102]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_102]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_102]
+
+2021-01-12 20:32:15.242  INFO 16868 --- [main] c.w.g.Get12306cookieApplication          : Starting Get12306cookieApplication using Java 1.8.0_102 on LAPTOP-VTN86PRD with PID 16868 (E:\get12306cookie\target\classes started by wonder in E:\get12306cookie)
+2021-01-12 20:32:15.244  INFO 16868 --- [main] c.w.g.Get12306cookieApplication          : No active profile set, falling back to default profiles: default
+2021-01-12 20:32:15.830  INFO 16868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8008 (http)
+2021-01-12 20:32:15.835  INFO 16868 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 20:32:15.835  INFO 16868 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 20:32:15.836  INFO 16868 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-01-12 20:32:15.836  INFO 16868 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-01-12 20:32:15.836  INFO 16868 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-01-12 20:32:15.839  INFO 16868 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-01-12 20:32:15.891  INFO 16868 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 20:32:15.891  INFO 16868 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 609 ms
+2021-01-12 20:32:16.000  INFO 16868 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 20:32:16.122  INFO 16868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8008 (http) with context path ''
+2021-01-12 20:32:16.129  INFO 16868 --- [main] c.w.g.Get12306cookieApplication          : Started Get12306cookieApplication in 1.176 seconds (JVM running for 1.785)
+2021-01-12 20:32:29.843  INFO 16868 --- [http-nio-8008-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-12 20:32:29.843  INFO 16868 --- [http-nio-8008-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-12 20:32:29.844  INFO 16868 --- [http-nio-8008-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-01-12 20:32:30.011  INFO 16868 --- [http-nio-8008-exec-2] c.w.g.Controller.mainController          : 【接收cookie值：】
+2021-01-12 20:32:30.011  INFO 16868 --- [http-nio-8008-exec-2] c.w.g.Controller.mainController          : 【tk】LNxg6khJVc8gHow2bfsL_WeRKENx21g864L1L0
+2021-01-12 20:32:30.011  INFO 16868 --- [http-nio-8008-exec-2] c.w.g.Controller.mainController          : 【RAIL_EXPIRATION】1610737654110
+2021-01-12 20:32:30.011  INFO 16868 --- [http-nio-8008-exec-2] c.w.g.Controller.mainController          : 【RAIL_DEVICEID】gFWSHfZwrDLBwHkqBXUhs7f20F-VghXINSEtAR4L50Ih5RxeRz03QtzdbffjkJ5BKcYg97pgF2zt-7xpyp2iFiz8U-qc74x308vNGNsjfpyb9Itc6X8oAvFuntU-G6KruYgtZtB64QZVXQfVjT9qrpQlBmpouGQu
+2021-01-12 20:32:30.018 ERROR 16868 --- [http-nio-8008-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.nio.file.InvalidPathException: Illegal char <"> at index 0: "F://TickerConfig.py"] with root cause
+
+java.nio.file.InvalidPathException: Illegal char <"> at index 0: "F://TickerConfig.py"
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182) ~[na:1.8.0_102]
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153) ~[na:1.8.0_102]
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77) ~[na:1.8.0_102]
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:94) ~[na:1.8.0_102]
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:255) ~[na:1.8.0_102]
+	at java.nio.file.Paths.get(Paths.java:84) ~[na:1.8.0_102]
+	at com.wonder.get12306cookie.Util.fileIO.readAndWriteFile(fileIO.java:25) ~[classes/:na]
+	at com.wonder.get12306cookie.Controller.mainController.getCookie(mainController.java:41) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_102]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_102]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_102]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_102]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) ~[tomcat-embed-core-9.0.41.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.41.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_102]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_102]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_102]
+
+2021-01-12 20:32:43.645  INFO 10064 --- [main] c.w.g.Get12306cookieApplication          : Starting Get12306cookieApplication using Java 1.8.0_102 on LAPTOP-VTN86PRD with PID 10064 (E:\get12306cookie\target\classes started by wonder in E:\get12306cookie)
+2021-01-12 20:32:43.648  INFO 10064 --- [main] c.w.g.Get12306cookieApplication          : No active profile set, falling back to default profiles: default
+2021-01-12 20:32:44.244  INFO 10064 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8008 (http)
+2021-01-12 20:32:44.250  INFO 10064 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 20:32:44.251  INFO 10064 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 20:32:44.252  INFO 10064 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-01-12 20:32:44.252  INFO 10064 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-01-12 20:32:44.252  INFO 10064 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-01-12 20:32:44.254  INFO 10064 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-01-12 20:32:44.296  INFO 10064 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 20:32:44.296  INFO 10064 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 609 ms
+2021-01-12 20:32:44.404  INFO 10064 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 20:32:44.527  INFO 10064 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8008 (http) with context path ''
+2021-01-12 20:32:44.534  INFO 10064 --- [main] c.w.g.Get12306cookieApplication          : Started Get12306cookieApplication in 1.154 seconds (JVM running for 1.829)
+2021-01-12 20:32:48.078  INFO 10064 --- [http-nio-8008-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-12 20:32:48.078  INFO 10064 --- [http-nio-8008-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-12 20:32:48.078  INFO 10064 --- [http-nio-8008-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-01-12 20:32:48.245  INFO 10064 --- [http-nio-8008-exec-2] c.w.g.Controller.mainController          : 【接收cookie值：】
+2021-01-12 20:32:48.245  INFO 10064 --- [http-nio-8008-exec-2] c.w.g.Controller.mainController          : 【tk】LNxg6khJVc8gHow2bfsL_WeRKENx21g864L1L0
+2021-01-12 20:32:48.245  INFO 10064 --- [http-nio-8008-exec-2] c.w.g.Controller.mainController          : 【RAIL_EXPIRATION】1610737654110
+2021-01-12 20:32:48.245  INFO 10064 --- [http-nio-8008-exec-2] c.w.g.Controller.mainController          : 【RAIL_DEVICEID】gFWSHfZwrDLBwHkqBXUhs7f20F-VghXINSEtAR4L50Ih5RxeRz03QtzdbffjkJ5BKcYg97pgF2zt-7xpyp2iFiz8U-qc74x308vNGNsjfpyb9Itc6X8oAvFuntU-G6KruYgtZtB64QZVXQfVjT9qrpQlBmpouGQu
+2021-01-12 20:32:48.252 ERROR 10064 --- [http-nio-8008-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.nio.file.InvalidPathException: Illegal char <"> at index 0: "F:\TickerConfig.py"] with root cause
+
+java.nio.file.InvalidPathException: Illegal char <"> at index 0: "F:\TickerConfig.py"
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182) ~[na:1.8.0_102]
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153) ~[na:1.8.0_102]
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77) ~[na:1.8.0_102]
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:94) ~[na:1.8.0_102]
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:255) ~[na:1.8.0_102]
+	at java.nio.file.Paths.get(Paths.java:84) ~[na:1.8.0_102]
+	at com.wonder.get12306cookie.Util.fileIO.readAndWriteFile(fileIO.java:25) ~[classes/:na]
+	at com.wonder.get12306cookie.Controller.mainController.getCookie(mainController.java:41) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_102]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_102]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_102]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_102]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) ~[tomcat-embed-core-9.0.41.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.41.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_102]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_102]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_102]
+
+2021-01-12 20:35:46.172  INFO 10064 --- [http-nio-8008-exec-4] c.w.g.Controller.mainController          : 【接收cookie值：】
+2021-01-12 20:35:46.173  INFO 10064 --- [http-nio-8008-exec-4] c.w.g.Controller.mainController          : 【tk】LNxg6khJVc8gHow2bfsL_WeRKENx21g864L1L0
+2021-01-12 20:35:46.173  INFO 10064 --- [http-nio-8008-exec-4] c.w.g.Controller.mainController          : 【RAIL_EXPIRATION】1610737654110
+2021-01-12 20:35:46.173  INFO 10064 --- [http-nio-8008-exec-4] c.w.g.Controller.mainController          : 【RAIL_DEVICEID】gFWSHfZwrDLBwHkqBXUhs7f20F-VghXINSEtAR4L50Ih5RxeRz03QtzdbffjkJ5BKcYg97pgF2zt-7xpyp2iFiz8U-qc74x308vNGNsjfpyb9Itc6X8oAvFuntU-G6KruYgtZtB64QZVXQfVjT9qrpQlBmpouGQu
+2021-01-12 20:35:46.174 ERROR 10064 --- [http-nio-8008-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.nio.file.InvalidPathException: Illegal char <"> at index 0: "F:\TickerConfig.py"] with root cause
+
+java.nio.file.InvalidPathException: Illegal char <"> at index 0: "F:\TickerConfig.py"
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182) ~[na:1.8.0_102]
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153) ~[na:1.8.0_102]
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77) ~[na:1.8.0_102]
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:94) ~[na:1.8.0_102]
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:255) ~[na:1.8.0_102]
+	at java.nio.file.Paths.get(Paths.java:84) ~[na:1.8.0_102]
+	at com.wonder.get12306cookie.Util.fileIO.readAndWriteFile(fileIO.java:25) ~[classes/:na]
+	at com.wonder.get12306cookie.Controller.mainController.getCookie(mainController.java:41) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_102]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_102]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_102]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_102]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) ~[tomcat-embed-core-9.0.41.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.41.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_102]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_102]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_102]
+
+2021-01-12 20:35:56.171  INFO 10284 --- [main] c.w.g.Get12306cookieApplication          : Starting Get12306cookieApplication using Java 1.8.0_102 on LAPTOP-VTN86PRD with PID 10284 (E:\get12306cookie\target\classes started by wonder in E:\get12306cookie)
+2021-01-12 20:35:56.173  INFO 10284 --- [main] c.w.g.Get12306cookieApplication          : No active profile set, falling back to default profiles: default
+2021-01-12 20:35:56.768  INFO 10284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8008 (http)
+2021-01-12 20:35:56.774  INFO 10284 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 20:35:56.774  INFO 10284 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 20:35:56.775  INFO 10284 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-01-12 20:35:56.775  INFO 10284 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-01-12 20:35:56.775  INFO 10284 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-01-12 20:35:56.777  INFO 10284 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-01-12 20:35:56.829  INFO 10284 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 20:35:56.829  INFO 10284 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 617 ms
+2021-01-12 20:35:56.934  INFO 10284 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 20:35:57.051  INFO 10284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8008 (http) with context path ''
+2021-01-12 20:35:57.060  INFO 10284 --- [main] c.w.g.Get12306cookieApplication          : Started Get12306cookieApplication in 1.178 seconds (JVM running for 1.817)
+2021-01-12 20:36:04.028  INFO 10284 --- [http-nio-8008-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-12 20:36:04.029  INFO 10284 --- [http-nio-8008-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-12 20:36:04.029  INFO 10284 --- [http-nio-8008-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-01-12 20:36:04.194  INFO 10284 --- [http-nio-8008-exec-3] c.w.g.Controller.mainController          : 【接收cookie值：】
+2021-01-12 20:36:04.194  INFO 10284 --- [http-nio-8008-exec-3] c.w.g.Controller.mainController          : 【tk】LNxg6khJVc8gHow2bfsL_WeRKENx21g864L1L0
+2021-01-12 20:36:04.194  INFO 10284 --- [http-nio-8008-exec-3] c.w.g.Controller.mainController          : 【RAIL_EXPIRATION】1610737654110
+2021-01-12 20:36:04.194  INFO 10284 --- [http-nio-8008-exec-3] c.w.g.Controller.mainController          : 【RAIL_DEVICEID】gFWSHfZwrDLBwHkqBXUhs7f20F-VghXINSEtAR4L50Ih5RxeRz03QtzdbffjkJ5BKcYg97pgF2zt-7xpyp2iFiz8U-qc74x308vNGNsjfpyb9Itc6X8oAvFuntU-G6KruYgtZtB64QZVXQfVjT9qrpQlBmpouGQu
+2021-01-12 20:36:04.201 ERROR 10284 --- [http-nio-8008-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.nio.file.InvalidPathException: Illegal char <"> at index 0: "F:\TickerConfig.py"] with root cause
+
+java.nio.file.InvalidPathException: Illegal char <"> at index 0: "F:\TickerConfig.py"
+	at sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:182) ~[na:1.8.0_102]
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:153) ~[na:1.8.0_102]
+	at sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77) ~[na:1.8.0_102]
+	at sun.nio.fs.WindowsPath.parse(WindowsPath.java:94) ~[na:1.8.0_102]
+	at sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:255) ~[na:1.8.0_102]
+	at java.nio.file.Paths.get(Paths.java:84) ~[na:1.8.0_102]
+	at com.wonder.get12306cookie.Util.fileIO.readAndWriteFile(fileIO.java:26) ~[classes/:na]
+	at com.wonder.get12306cookie.Controller.mainController.getCookie(mainController.java:41) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_102]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_102]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_102]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_102]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) ~[tomcat-embed-core-9.0.41.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.2.jar:5.3.2]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.41.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.2.jar:5.3.2]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_102]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_102]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_102]
+
+2021-01-12 20:39:35.713  WARN 10284 --- [http-nio-8008-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-01-12 20:39:39.833  WARN 10284 --- [http-nio-8008-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-01-12 20:41:28.214  INFO 11280 --- [main] c.w.g.Get12306cookieApplication          : Starting Get12306cookieApplication using Java 1.8.0_102 on LAPTOP-VTN86PRD with PID 11280 (E:\get12306cookie\target\classes started by wonder in E:\get12306cookie)
+2021-01-12 20:41:28.217  INFO 11280 --- [main] c.w.g.Get12306cookieApplication          : No active profile set, falling back to default profiles: default
+2021-01-12 20:41:28.894  INFO 11280 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8008 (http)
+2021-01-12 20:41:28.901  INFO 11280 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-12 20:41:28.901  INFO 11280 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-12 20:41:28.902  INFO 11280 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-01-12 20:41:28.902  INFO 11280 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-01-12 20:41:28.902  INFO 11280 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-01-12 20:41:28.904  INFO 11280 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-01-12 20:41:28.947  INFO 11280 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-12 20:41:28.947  INFO 11280 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 679 ms
+2021-01-12 20:41:29.073  INFO 11280 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 20:41:29.214  INFO 11280 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8008 (http) with context path ''
+2021-01-12 20:41:29.220  INFO 11280 --- [main] c.w.g.Get12306cookieApplication          : Started Get12306cookieApplication in 1.291 seconds (JVM running for 1.971)
+2021-01-12 20:41:52.200  INFO 11280 --- [http-nio-8008-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-12 20:41:52.201  INFO 11280 --- [http-nio-8008-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-12 20:41:52.202  INFO 11280 --- [http-nio-8008-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-01-12 20:41:52.343  INFO 11280 --- [http-nio-8008-exec-2] c.w.g.Controller.mainController          : 【接收cookie值：】
+2021-01-12 20:41:52.343  INFO 11280 --- [http-nio-8008-exec-2] c.w.g.Controller.mainController          : 【tk】LNxg6khJVc8gHow2bfsL_WeRKENx21g864L1L0
+2021-01-12 20:41:52.343  INFO 11280 --- [http-nio-8008-exec-2] c.w.g.Controller.mainController          : 【RAIL_EXPIRATION】1610737654110
+2021-01-12 20:41:52.343  INFO 11280 --- [http-nio-8008-exec-2] c.w.g.Controller.mainController          : 【RAIL_DEVICEID】gFWSHfZwrDLBwHkqBXUhs7f20F-VghXINSEtAR4L50Ih5RxeRz03QtzdbffjkJ5BKcYg97pgF2zt-7xpyp2iFiz8U-qc74x308vNGNsjfpyb9Itc6X8oAvFuntU-G6KruYgtZtB64QZVXQfVjT9qrpQlBmpouGQu
+2021-01-12 20:53:29.448  INFO 1908 --- [main] c.w.g.Get12306cookieApplicationTests     : Starting Get12306cookieApplicationTests using Java 1.8.0_102 on LAPTOP-VTN86PRD with PID 1908 (started by wonder in E:\get12306cookie)
+2021-01-12 20:53:29.450  INFO 1908 --- [main] c.w.g.Get12306cookieApplicationTests     : No active profile set, falling back to default profiles: default
+2021-01-12 20:53:30.497  INFO 1908 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 20:53:30.779  INFO 1908 --- [main] c.w.g.Get12306cookieApplicationTests     : Started Get12306cookieApplicationTests in 1.616 seconds (JVM running for 2.697)
+2021-01-12 20:53:31.026  INFO 1908 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-12 20:58:41.576  INFO 9480 --- [main] c.w.g.Get12306cookieApplicationTests     : Starting Get12306cookieApplicationTests using Java 1.8.0_102 on LAPTOP-VTN86PRD with PID 9480 (started by wonder in E:\get12306cookie)
+2021-01-12 20:58:41.578  INFO 9480 --- [main] c.w.g.Get12306cookieApplicationTests     : No active profile set, falling back to default profiles: default
+2021-01-12 20:58:42.485  INFO 9480 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 20:58:42.861  INFO 9480 --- [main] c.w.g.Get12306cookieApplicationTests     : Started Get12306cookieApplicationTests in 1.56 seconds (JVM running for 2.476)
+2021-01-12 20:58:43.071  INFO 9480 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-12 21:04:34.949  INFO 7032 --- [main] c.w.g.Get12306cookieApplicationTests     : Starting Get12306cookieApplicationTests using Java 1.8.0_102 on LAPTOP-VTN86PRD with PID 7032 (started by wonder in E:\get12306cookie)
+2021-01-12 21:04:34.953  INFO 7032 --- [main] c.w.g.Get12306cookieApplicationTests     : No active profile set, falling back to default profiles: default
+2021-01-12 21:04:35.950  INFO 7032 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 21:04:36.228  INFO 7032 --- [main] c.w.g.Get12306cookieApplicationTests     : Started Get12306cookieApplicationTests in 1.49 seconds (JVM running for 2.26)
+2021-01-12 21:04:36.480  INFO 7032 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-12 21:12:43.225  INFO 14192 --- [main] c.w.g.Get12306cookieApplicationTests     : Starting Get12306cookieApplicationTests using Java 1.8.0_102 on LAPTOP-VTN86PRD with PID 14192 (started by wonder in E:\get12306cookie)
+2021-01-12 21:12:43.228  INFO 14192 --- [main] c.w.g.Get12306cookieApplicationTests     : No active profile set, falling back to default profiles: default
+2021-01-12 21:12:44.165  INFO 14192 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 21:12:44.425  INFO 14192 --- [main] c.w.g.Get12306cookieApplicationTests     : Started Get12306cookieApplicationTests in 1.445 seconds (JVM running for 2.376)
+2021-01-12 21:12:44.622  INFO 14192 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-12 21:17:07.052  INFO 9796 --- [main] c.w.g.Get12306cookieApplicationTests     : Starting Get12306cookieApplicationTests using Java 1.8.0_102 on LAPTOP-VTN86PRD with PID 9796 (started by wonder in E:\get12306cookie)
+2021-01-12 21:17:07.055  INFO 9796 --- [main] c.w.g.Get12306cookieApplicationTests     : No active profile set, falling back to default profiles: default
+2021-01-12 21:17:07.998  INFO 9796 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 21:17:08.249  INFO 9796 --- [main] c.w.g.Get12306cookieApplicationTests     : Started Get12306cookieApplicationTests in 1.457 seconds (JVM running for 2.207)
+2021-01-12 21:17:08.465  INFO 9796 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-12 21:48:44.001  INFO 20172 --- [main] c.w.g.Get12306cookieApplicationTests     : Starting Get12306cookieApplicationTests using Java 1.8.0_102 on LAPTOP-VTN86PRD with PID 20172 (started by wonder in E:\get12306cookie)
+2021-01-12 21:48:44.006  INFO 20172 --- [main] c.w.g.Get12306cookieApplicationTests     : No active profile set, falling back to default profiles: default
+2021-01-12 21:48:44.928  INFO 20172 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-12 21:48:45.215  INFO 20172 --- [main] c.w.g.Get12306cookieApplicationTests     : Started Get12306cookieApplicationTests in 1.461 seconds (JVM running for 2.312)
+2021-01-12 21:48:45.409  INFO 20172 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
