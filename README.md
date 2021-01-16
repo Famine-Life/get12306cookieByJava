@@ -13,6 +13,8 @@
 
 ## 使用方法：
 
+[视频教程](https://www.bilibili.com/video/BV1Kr4y1M7gb)
+
 0. 请确保该接收程序能跑在https的域名下！！ 文字最后，我会教授怎么搞到https~
 
 1. 首先安装发送cookie的油猴脚本 
