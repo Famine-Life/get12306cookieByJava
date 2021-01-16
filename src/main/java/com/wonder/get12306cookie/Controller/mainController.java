@@ -7,6 +7,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -19,8 +20,7 @@ public class mainController {
     private myConfig myConfig;
 
     @PostMapping("/cookie")
-    public Map<String,String> getCookie(@RequestBody Map<String,String> mymap)
-    {
+    public Map<String,String> getCookie(@RequestBody Map<String,String> mymap) throws IOException {
         //log.info(mymap.get("tk"));
         String tk = mymap.get("tk");
         String rail_expiration = mymap.get("rail_expiration");
@@ -37,8 +37,16 @@ public class mainController {
         map.put("rail_expiration",rail_expiration);
         map.put("rail_deviceid",rail_deviceid);
 
+        //判断tk值是否改变
+
         //写入文件
-        fileIO.readAndWriteFile(myConfig.getTk_path(),map.get("tk"),map.get("rail_expiration"),map.get("rail_deviceid"));
+        boolean b = fileIO.readAndWriteFile(myConfig.getTk_path(), map.get("tk"), map.get("rail_expiration"), map.get("rail_deviceid"));
+        if(b){
+            System.out.println("更新成功！");
+            map.put("msg","更新成功!");
+        }else{
+            map.put("msg","tk值相同!");
+        }
 
         //如果是linux
         if(myConfig.isLinux==1){
